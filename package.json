@@ -1,0 +1,28 @@
+{
+  "name": "strandbeest-visualizer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "strandbeest",
+    "threejs",
+    "rapier",
+    "simulation"
+  ],
+  "author": "Sachin Dolta",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@dimforge/rapier3d": "^0.14.0",
+    "install": "^0.13.0",
+    "three": "^0.171.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.3",
+    "vite-plugin-wasm": "^3.3.0"
+  }
+}
